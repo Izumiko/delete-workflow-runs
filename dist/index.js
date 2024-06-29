@@ -31843,9 +31843,9 @@ const delRunsForRepo = async (repo, token, retain_days, keep_minimum_runs) => {
                 repo: repo_name,
                 run_id: run_id,
             });
-            console.log(`🚀 Deleted workflow run ${run_id}.`);
+            console.log(`🚀 Deleted workflow run ${run_id} in ${repo_owner}/${repo_name}`);
         }
-        console.log(`✅ ${arr_length} workflow runs are deleted.`);
+        console.log(`✅ ${arr_length} workflow runs in ${repo_owner}/${repo_name} are deleted.`);
     }
 };
 const run = async () => {
