@@ -14,7 +14,7 @@ The action will calculate the number of days that each workflow run has been ret
 
 * Add the input parameter "[**`keep_minimum_runs`**](#4-keep_minimum_runs)". Whit this input parameter, you can specify the number of the minimum runs to keep for each workflow. The specified number of latest runs will be kept for each workflow, even if some of the runs have reached the specified retention days.
 
-* Optimize code to simplify the processes.
+* `repository` can accept multiple repositories.
 
 ---
 
